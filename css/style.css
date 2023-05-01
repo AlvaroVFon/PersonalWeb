@@ -8,17 +8,21 @@
 
 html {
     font-size: 62.5%;
-    font-family: 'Inconsolata', monospace;
+    font-family: 'JetBrains Mono', monospace;
 }
 
 body {
     min-height: 100vh;
 }
 
+
+/* Empezamos con el header y menu */
+
 .main-header {
     display: flex;
+    height: 6rem;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-end;
     background-color: #2A2D34;
 }
 
@@ -32,20 +36,49 @@ body {
 
 }
 
-
-
-
 .menu {
     display: flex;
     justify-content: flex-end;
-    align-items: center;
+    align-items: flex-end;
     padding: 1rem 5rem;
 }
 
 .menu a {
     text-decoration: none;
-    padding: 2rem;
-    font-size: 2.5rem;
+    padding: 0 2rem;
+    font-size: 1.5rem;
     font-weight: 900;
     color: #D3D5D4;
+}
+
+/* Estilos primera sección layoput doble */
+
+.introduccion {
+    display: flex;
+    min-height: 94vh;
+}
+
+.layout1 {
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.layout1 h1 {
+    font-size: 3rem;
+    max-width: 42rem;
+}
+
+.resaltado {
+    color: #3F51B5;
+    font-weight: 800;
+}
+
+.layout2 {
+    flex-basis: 50%;
+    background-color: #3F51B5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
