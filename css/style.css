@@ -98,12 +98,87 @@ body {
 .main-footer {
     min-height: 20vh;
     background-color: #101010;
-}
-
-.footer-menu {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.social-media {
+    display: flex;
+
+}
+
+.social-media menu {
     padding: 2rem;
+}
+
+.social-media menu a {
+    text-decoration: none;
+    color: white;
+    padding: 0 8rem;
+    font-size: 4rem;
+    margin-top: 2rem;
+}
+
+
+.footer-content {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    color: white;
+    padding: 1rem;
+}
+
+.contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 33%;
+}
+
+
+.sobre-mi {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 33%;
+}
+
+.actualidad {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 33%;
+}
+
+.footer-content h3 {
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 2rem;
+}
+
+.footer-content ul {
+    list-style-type: none;
+}
+
+.footer-content ul li {
+
+    font-size: 1.5rem;
+}
+
+.footer-content i {
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+.copy {
+    color: white;
+    padding: 1rem;
+    font-size: 2rem;
+    margin-top: 2rem;
 }
