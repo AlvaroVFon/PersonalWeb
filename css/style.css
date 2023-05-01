@@ -51,6 +51,10 @@ body {
     color: #D3D5D4;
 }
 
+.menu a:hover {
+    color: white;
+}
+
 /* Estilos primera sección layoput doble */
 
 .introduccion {
