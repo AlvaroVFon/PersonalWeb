@@ -87,3 +87,22 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+
+
+
+
+/* Footer */
+
+.main-footer {
+    min-height: 20vh;
+    background-color: #2A2D34;
+}
+
+.footer-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
