@@ -68,6 +68,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: right;
 }
 
 .layout1 h1 {
