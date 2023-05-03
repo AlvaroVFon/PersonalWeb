@@ -96,7 +96,6 @@ body {
 /* Footer */
 
 .main-footer {
-    min-height: 20vh;
     background-color: #101010;
     display: flex;
     flex-direction: column;
@@ -110,15 +109,15 @@ body {
 }
 
 .social-media menu {
-    padding: 2rem;
+    margin-top: 3rem;
 }
 
 .social-media menu a {
     text-decoration: none;
     color: white;
-    padding: 0 8rem;
-    font-size: 4rem;
-    margin-top: 2rem;
+    padding: 0 2rem;
+    font-size: 3rem;
+    margin-top: 5rem;
 }
 
 
@@ -168,7 +167,7 @@ body {
 
 .footer-content ul li {
 
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 .footer-content i {
@@ -179,6 +178,6 @@ body {
 .copy {
     color: white;
     padding: 1rem;
-    font-size: 2rem;
+    font-size: 1rem;
     margin-top: 2rem;
 }
