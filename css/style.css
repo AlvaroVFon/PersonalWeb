@@ -61,6 +61,7 @@ body {
 .introduccion {
     display: flex;
     min-height: 94vh;
+
 }
 
 .layout1 {
@@ -120,6 +121,10 @@ body {
     margin-top: 5rem;
 }
 
+.social-media menu a:hover {
+    font-size: 3.2rem;
+}
+
 
 .footer-content {
     display: flex;
@@ -168,6 +173,11 @@ body {
 .footer-content ul li {
 
     font-size: 1rem;
+}
+
+.footer-content li a {
+    text-decoration: none;
+    color: white;
 }
 
 .footer-content i {
